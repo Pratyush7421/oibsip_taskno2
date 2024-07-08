@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Pratyush Kumar</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="section home-section">
+            <div class="content">
+                <h1 class="h1">Welcome to My Portfolio</h1>
+                <p>I am Pratyush Kumar, a passionate web developer.</p>
+                <a href="#about" class="btn">know More</a>
+            </div>
+        </section>
+
+        
+        <section id="about" class="section about-section">
+            <div class="content">
+                <h2>About Me</h2>
+                <div class="about-wrapper">
+                    <img src="images/my_image.png" alt="Images" class="profile-image">
+                    <div class="about-details">
+                        <p>[Your brief bio goes here]</p>
+                        <a href="images/Pratyush_resume.pdf" class="btn" download>Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="skills" class="section skills-section">
+            <div class="content">
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-column">
+                        <div class="skill-bar">
+                            <div class="skill-name">HTML</div>
+                            <div class="skill-progress">
+                                <div class="skill-percentage" style="width: 90%;">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-name">CSS</div>
+                            <div class="skill-progress">
+                                <div class="skill-percentage" style="width: 80%;">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-column">
+                        <div class="skill-bar">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-progress">
+                                <div class="skill-percentage" style="width: 75%;">75%</div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-name">Bootstrap</div>
+                            <div class="skill-progress">
+                                <div class="skill-percentage" style="width: 85%;">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><img src="images/fb.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="images/ig.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="images/LinkedIn_img.png" alt="LinkedIn"></a>
+                    <a href="#" class="social-icon"><img src="images/github-img.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pratyush Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
